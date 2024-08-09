@@ -1,0 +1,354 @@
+*{
+    margin: 0px;
+   padding: 0px;
+
+}
+#container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    
+
+}
+.nav{
+   
+    justify-content: space-between;
+    display: flex;
+    
+    align-items: center;
+    
+
+}
+ul {
+    list-style: none;
+    display: flex;
+    
+}
+ li{
+    display: inline;
+    color: #000;
+    margin: 20px;
+
+}
+li a{
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.nav ul li i {
+   
+    font-size: 12px; /* Reduce the icon size */
+    margin-right: 5px; /* Space between icon and text */
+}
+
+
+.logo{
+    padding-top: 5px;
+}
+.header-container {
+    display: flex;
+    align-items: center; /* Vertically centers the content within the container */
+}
+
+.headImage {
+   padding-left: 600px;
+   width: 55px;
+ 
+
+}
+.banner{
+    height: 600px;
+    width: 100%;
+    /* padding: 40px; */
+    position: relative;
+   
+}
+.button {
+    position: absolute;
+    top: 105%; /* Adjusts the button position vertically */
+    left: 52%; /* Adjusts the button position horizontally */
+    transform: translate(-50%, -50%); /* Centers the button */
+    background-color: #f47c92; /* Adjust button style as needed */
+    padding: 30px 60px;
+   border-radius: 90px;
+    text-decoration: none;
+    color: #faf4f6; /* Button text color */
+    font-weight: bold;
+   
+}
+
+.button:hover {
+    background-color: #f26d83; /* Optional: change button color on hover */
+}
+
+.heading4{
+    justify-content: center;
+    text-align: center;
+    font-family: "Foldit", sans-serif;
+
+}
+.image{
+    margin: 90px;
+    display: grid;
+    grid-template-columns:auto auto auto;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    text-align: center; 
+}
+
+.img-container {
+    position: relative;
+    display: inline-block;
+    overflow: hidden; 
+}
+
+.img-container img {
+   
+    display: block; 
+}
+
+.shop-link {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0; /* Initially hides the link */
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    color: white;
+    padding:  100%;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: opacity 0.3s ease;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.img-container:hover .shop-link {
+    opacity: 1; /* Shows the link when hovering over the image */
+}
+.shop-link1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0; /* Initially hides the link */
+    background-color: rgba(19, 13, 17, 0.7); /* Semi-transparent background */
+    color: rgb(239, 234, 234);
+    padding:  5%;
+    text-decoration: none;
+    font-size: 1.9rem;
+    font-weight: 500;
+    transition: opacity 0.3s ease;
+    /* border-radius: 5px; */
+}
+.img-container:hover .shop-link1 {
+    opacity: 1; /* Shows the link when hovering over the image */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.image1{
+    margin: 90px;
+    display: grid;
+    grid-template-columns:auto auto auto;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+   
+ 
+}
+.img-boy {
+    width: 300px; /* Adjust as needed */
+    height: 450px; /* Adjust as needed */
+    /* border-radius: 50px; */
+}
+.img-boy1 {
+    width: 250px; /* Adjust as needed */
+    height: 380px; /* Adjust as needed */
+    /* border-radius: 50px; */
+}
+.img-boy2 {
+    width: 300px; /* Adjust as needed */
+    height: 450px; /* Adjust as needed */
+    /* border-radius: 50px; */
+}
+.img-boy3 {
+    width: 300px; /* Adjust as needed */
+    height: 450px; /* Adjust as needed */
+    /* border-radius: 50px; */
+}
+.img-boy4 {
+    width: 250px; /* Adjust as needed */
+    height: 380px; /* Adjust as needed */
+    /* border-radius: 50px; */
+}
+.img-boy5 {
+    width: 300px; /* Adjust as needed */
+    height: 450px; /* Adjust as needed */
+    /* border-radius: 50px; */
+}
+
+
+.heading1{
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+    margin: 20px;
+    padding: 10px;
+    
+    font-family: "DM Serif Display", serif;
+    font-size: xx-large;
+    font-weight: 800;
+
+}
+#heading2{
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    font-family: "Playfair Display", serif;
+ 
+}
+
+.img-girl {
+    width: 210px; /* Adjust as needed */
+    height: 320px; /* Adjust as needed */
+  
+}
+
+.img-skirt {
+    width: 240px; /* Adjust as needed */
+    height: 400px; /* Adjust as needed */
+    
+}
+
+.img-black {
+    width: 210px; /* Adjust as needed */
+    height: 320px; /* Adjust as needed */
+   
+}
+
+.images{
+    display: flex;
+   
+}
+.img{
+    height: 450px;
+    width: 350px;
+    padding: 50px;
+}
+.img-offer {
+    position: relative;
+    display: inline-block;
+    overflow: hidden; 
+}
+
+.img-offer img {
+   
+    display: block; 
+}
+
+.shop-link2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0; /* Initially hides the link */
+    background-color: rgba(42, 39, 52, 0.7); /* Semi-transparent background */
+    color: rgb(246, 241, 241);
+    padding:  30%;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: opacity 0.3s ease;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: 600;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.img-offer:hover .shop-link2 {
+    opacity: 1; /* Shows the link when hovering over the image */
+}
+
+
+
+.footer{
+    text-align: center;
+    margin: 0px;
+    padding: 50px;
+    background-color: rgb(164, 103, 181);
+}
+
+
+
+.iconCollection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+   
+
+
+}
+
+.icon {
+    border: solid;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 20px;
+}
+
+.brands {
+    color: rgb(8, 5, 5);
+    font-size: 1.8rem;
+}
+
+.icon:hover {
+    background-image: linear-gradient(to bottom right,rgb(194, 73, 199), rgb(132, 102, 177), rgb(97, 151, 213));
+}
+.icon:hover .brands{
+    color: rgb(63, 4, 147);
+    /* animation */
+    animation: rotate 3s;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(30deg);
+    }
+    20%{
+        transform: rotate(-30deg);
+    }
+    40%{
+        transform: rotate(30deg);
+    }
+    60%{
+        transform: rotate(-30deg);
+    }
+    80%{
+        transform: rotate(30deg);
+    }
+    100%{
+        transform: rotate(-30deg);
+    }
+}
