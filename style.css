@@ -232,6 +232,7 @@ li a{
 
 .images{
     display: flex;
+    padding: 20px;
    
 }
 .img{
